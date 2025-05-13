@@ -1,0 +1,40 @@
+section {
+    background-color: #eaeaea;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+section {
+    line-height: 1.5;
+    border-radius: 20px;
+}
+
+.review-section {
+    width: 70%;
+    margin: 0 auto;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+h4 {
+    margin: 0;
+}
+
+h2 {
+    margin-bottom: 0;
+}
+
+.picture-description {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 20px;
+}
+
+.picture-description img {
+    padding-bottom: 15px; 
+}
+
+#book-info {
+    text-align: left;
+}

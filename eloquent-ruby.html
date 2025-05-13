@@ -4,17 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Eloquent Ruby - Review</title>
-    <style>
-        a {
-            text-decoration: none;
-            color: black;
-        }
-
-        a:hover {
-            font-weight: bold;
-            cursor: pointer;
-        }
-    </style>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/eloquent-ruby.css">
 
 </head>
 
@@ -24,7 +15,7 @@
     </header>
 
     <nav>
-        <ul>
+        <ul class="nav-list">
             <li><a href="index.html">Home</a></li>
             <li><a href="eloquent-ruby.html">Eloquent Ruby</a></li>
             <li><a href="contact.html">Contacts</a></li>
@@ -32,27 +23,31 @@
     </nav>
 
     <main>
-        <img src="images/cover-eloquent_ruby.jpg" alt="Eloquent Ruby Cover" width="200">
+        <div class="picture-description">
+            <img src="images/cover-eloquent_ruby.jpg" alt="Eloquent Ruby Cover" width="200">
 
 
-        <section>
-            <h2>Book Information</h2>
-            <ul>
-                <li><b>Author:</b> Russ Olsen</li>
-                <li><b>Email:</b> <a href="mailto:russ@russolsen.com">russ@russolsen.com</a></li>
-                <li><b>Twitter:</b> <a href="https://twitter.com/russolsen">@russolsen</a></li>
-                <li><b>Website:</b> <a href="http://eloquentruby.com/">eloquentruby.com</a></li>
-                <li><b>Format:</b> Paperback, 413 pages</li>
-                <li><b>Publication Date:</b> February 21, 2011</li>
-                <li><b>Publisher:</b> Addison-Wesley Professional</li>
-                <li><b>Price:</b> $38.63</li>
-                <li><b>ISBN:</b> 860-1300202396</li>
-            </ul>
-        </section>
+            <section>
+                <h2>Book Information</h2>
+                <ul id="book-info">
+                    <li><b>Author:</b> Russ Olsen</li>
+                    <li><b>Email:</b> <a href="mailto:russ@russolsen.com">russ@russolsen.com</a></li>
+                    <li><b>Twitter:</b> <a href="https://twitter.com/russolsen">@russolsen</a></li>
+                    <li><b>Website:</b> <a href="http://eloquentruby.com/">eloquentruby.com</a></li>
+                    <li><b>Format:</b> Paperback, 413 pages</li>
+                    <li><b>Publication Date:</b> February 21, 2011</li>
+                    <li><b>Publisher:</b> Addison-Wesley Professional</li>
+                    <li><b>Price:</b> $38.63</li>
+                    <li><b>ISBN:</b> 860-1300202396</li>
+                </ul>
+            </section>
+        </div>
+
 
         <section>
             <h2>Description</h2>
-            <p>It’s easy to write correct Ruby code, but to gain the fluency needed to write great Ruby code, you must
+            <p class="review-section">It’s easy to write correct Ruby code, but to gain the fluency needed to write
+                great Ruby code, you must
                 go beyond syntax and absorb the Ruby way of thinking and problem solving...</p>
         </section>
 
@@ -63,7 +58,8 @@
                 <h4>Review #1: The first Ruby book I read in full within 24 hours</h4>
                 <p><strong>Reviewer:</strong> Peter Cooper</p>
                 <p><strong>Date:</strong> February 26, 2011</p>
-                <p>This book is so easy to read yet so useful and informative that I read it in its entirety within 24
+                <p class="review-section">This book is so easy to read yet so useful and informative that I read it in
+                    its entirety within 24
                     hours (across 2 distinct days admittedly ;-)).
                     Eloquent Ruby is a book published by Addison Wesley and written by Russ Olsen (who also wrote Design
                     Patterns in Ruby a few years ago). It clocks in at around 400 pages and has 31 chapters clocking in
@@ -97,7 +93,8 @@
                 <h4>Review #2: Eloquent Olsen</h4>
                 <p><strong>Reviewer:</strong> Fogus</p>
                 <p><strong>Date:</strong> March 7, 2011</p>
-                <p>For better or worse the vast majority of my work life journey has been travelled with Java as my
+                <p class="review-section">For better or worse the vast majority of my work life journey has been
+                    travelled with Java as my
                     vehicle of expression. However, by nature I have a burning desire to learn new languages and at one
                     point or another I discovered Russ Olsen's (also the author of Eloquent Ruby) "Design Patterns in
                     Ruby". Having at one time counted myself as a true-believer in everything pattern-esque, I was
